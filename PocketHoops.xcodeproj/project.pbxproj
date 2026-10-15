@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06ABEB5B7C94104D8D323B8B /* Aim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AE4F01B79EE7120FBA845 /* Aim.swift */; };
+		0956FEC8F6741E1D837C2C32 /* outfit_acc_blackjeans.png in Resources */ = {isa = PBXBuildFile; fileRef = B876575B546DF0622FF2512A /* outfit_acc_blackjeans.png */; };
+		0DCC62959806F1BA08D046E7 /* PrizeCounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4A94FE6C0CF4AD91AAC9B3 /* PrizeCounterView.swift */; };
+		0FD9955BFA3A4030EF05403E /* outfit_acc_bandana.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CEE82062285AF2F899CBFA2 /* outfit_acc_bandana.png */; };
+		1495DADFE1F114DB3FD9FC62 /* outfit_acc_beanie.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C1866E2A494983252A4A8BC /* outfit_acc_beanie.png */; };
+		16103665D208CA22134267EA /* outfit_acc_neon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4CD9D0CAF3E758A9A936AA /* outfit_acc_neon.png */; };
+		1B58DEDEBB8356F6C5FB1E8C /* outfit_acc_goldkicks.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FF48B6AD5C015105BF1A7F4 /* outfit_acc_goldkicks.png */; };
+		22017949E787D5CF0125BFD0 /* outfit_acc_blackkicks.png in Resources */ = {isa = PBXBuildFile; fileRef = B01A3646EDCC979B2ED60829 /* outfit_acc_blackkicks.png */; };
+		23597C42EFE981AAD3070A1F /* ball_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 483A94FD42BAFE82BA20993D /* ball_1.png */; };
+		24ADFD729D007F8344C185FA /* sparkle_1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF93530991C6E03606216DA3 /* sparkle_1.png */; };
+		25E963188783BA36116AEAC3 /* Unlocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C502E4086FB8889664551BF /* Unlocks.swift */; };
+		276FC998CDEBC3CDCE65B3D1 /* kid_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = 18130866E8C381F559F62482 /* kid_jump.png */; };
+		284BD0848EEAA048041D5307 /* sparkle_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F3B2E0B2A2D5396D6C5BDD8 /* sparkle_0.png */; };
+		2A76C2AABD359555BE0BF960 /* outfit_acc_cap.png in Resources */ = {isa = PBXBuildFile; fileRef = 9709BE6801EB4EAE56FDADF6 /* outfit_acc_cap.png */; };
+		2C9B4DC9E0EB1D8CA299CF79 /* rim_back_swish.png in Resources */ = {isa = PBXBuildFile; fileRef = 959D97B5CA8C2E07C35B5150 /* rim_back_swish.png */; };
+		2D58CCA15E877C9094AB4B42 /* outfit_acc_lava.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD3EA522A7DC94E2AE9F793 /* outfit_acc_lava.png */; };
+		2E8B5B908117AF9D7CE9B2FD /* outfit_acc_sweatband.png in Resources */ = {isa = PBXBuildFile; fileRef = 5389733879649E77CA19C4E8 /* outfit_acc_sweatband.png */; };
+		3BEBCE97B34C3F662E4AF95B /* outfit_avatar_maya.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4F1EDDB7F918C4B1EB898C /* outfit_avatar_maya.png */; };
+		43E280E59A596680477B1BC9 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88D1A994BF3319C5E095F3E /* Sound.swift */; };
+		46D4F87C1EB47A18C1E4917C /* WorldBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD992F6D698D639647FD4D60 /* WorldBoard.swift */; };
+		493403D26BE7E58C681F4A64 /* PocketHoopsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD71ECE433656C682F453A28 /* PocketHoopsApp.swift */; };
+		4FCFE1329F4A28920E130806 /* outfit_acc_puffer.png in Resources */ = {isa = PBXBuildFile; fileRef = 0758F2EBE3F63C44637209D4 /* outfit_acc_puffer.png */; };
+		520A53AB883535C7B9E07C81 /* outfit_acc_tiedye.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F99FDEDA582C1207192AA28 /* outfit_acc_tiedye.png */; };
+		53094074B04A745C566DF41F /* kid_reach.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B4065626F9E597F988017F /* kid_reach.png */; };
+		53F89E0BD8DB0B9D3403EA16 /* ball_squash.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C1AEE45ED0F2E9CB5F2E39E /* ball_squash.png */; };
+		579E9761BE67A2A2BD1E2EEE /* PixelFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C4E7B94CF44C7E469AAEC5 /* PixelFont.swift */; };
+		57B71C9B16E291543E02BD28 /* sparkle_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D2F16FDA3B52FB0A6339A6 /* sparkle_2.png */; };
+		57D022D341F15FFAF836E2B6 /* Wardrobe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6A0D0FF8A1775F4BF60E80 /* Wardrobe.swift */; };
+		5A3B4B6D3275B936C8F7733C /* outfit_hair_maya.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D6579592D10D6300AC0783 /* outfit_hair_maya.png */; };
+		5FC36A3AD85ABCAC327C462F /* sparkle_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 129676C31ABA349FAA8C37E4 /* sparkle_3.png */; };
+		651B7AF434A2C054D5508D36 /* kid_lift.png in Resources */ = {isa = PBXBuildFile; fileRef = 60D9DC6595BD13BC743E4C11 /* kid_lift.png */; };
+		6734B9449CDADC0D513ED26B /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F28557BB9BE1DBC172BB87D /* Progress.swift */; };
+		68302E000A11F8F368F6E575 /* outfit_acc_varsity.png in Resources */ = {isa = PBXBuildFile; fileRef = F7B7BAF042A7D2E1E0F5DF0E /* outfit_acc_varsity.png */; };
+		6861DD53CF813F758380876A /* PixelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46303584EB558A63F90D75F6 /* PixelLabel.swift */; };
+		68BC4D138934F6420AD2A349 /* PixelUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CC14DE93269AA30E1C6562 /* PixelUI.swift */; };
+		690D18D8A5BE843D3552FD78 /* ball_4.png in Resources */ = {isa = PBXBuildFile; fileRef = C4FEB633FB528667D0D22960 /* ball_4.png */; };
+		6E7503765BC08ED40B40849D /* PixelCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285CAEDE842D3DF2F9797738 /* PixelCanvas.swift */; };
+		70CEC779691B05C46E770611 /* Rack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7EA0DDD3883B0A16C63E10 /* Rack.swift */; };
+		71AC23B02D6C12570F1B68A8 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94021462034EDBFAE439015 /* LeaderboardView.swift */; };
+		7460792E847A7C43BCDB02B4 /* outfit_acc_striped.png in Resources */ = {isa = PBXBuildFile; fileRef = 1088DD0669CEB5F55B3FD1EB /* outfit_acc_striped.png */; };
+		74D7DEE0A2AC0801754CE841 /* outfit_avatar_dre.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C653A04557B15D3EF136124 /* outfit_avatar_dre.png */; };
+		77685E5F32C056488D06591E /* Vec3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0E476DBF5A60249648CB2A /* Vec3.swift */; };
+		792CECABA03580600E10CCFC /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942B1878B19493FF28834425 /* GameView.swift */; };
+		7F850D00D114881928A807ED /* Physics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C459FF870A807D28E15FA428 /* Physics.swift */; };
+		82EF2C1E5A7AB5187D3DA7FA /* rim_front_rest.png in Resources */ = {isa = PBXBuildFile; fileRef = 006075034CC643B98288DAAC /* rim_front_rest.png */; };
+		83C2674C69E31AA33BD94E80 /* ball_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A855DBE571DEA0F362780BA /* ball_0.png */; };
+		8481A29311C496CC008524C9 /* kid_crouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 585FCBC36E12804D41D2E507 /* kid_crouch.png */; };
+		860B2DB99A56BF7DFF964360 /* outfit_acc_goldjersey.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D907CA2EFA5832E483CD6D1 /* outfit_acc_goldjersey.png */; };
+		894BC8A3035343BC8D780E25 /* outfit_acc_bomber.png in Resources */ = {isa = PBXBuildFile; fileRef = 26E142AF62DE3E325D4467E1 /* outfit_acc_bomber.png */; };
+		8D955B609CD60B56EF578D1D /* outfit_acc_jersey.png in Resources */ = {isa = PBXBuildFile; fileRef = DB427F8884EE80BDF779CBFE /* outfit_acc_jersey.png */; };
+		90D77230D3A8B0708016EFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DC04CACA72D52BEC97B2F2 /* Assets.xcassets */; };
+		9231987F90F58BCD9D48983E /* GIFArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8798A9F2A0AA8BCD09DB41 /* GIFArt.swift */; };
+		9338D39030A5DA6AC5C968B8 /* lip.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CD374025B6501D3CF1E2BAA /* lip.png */; };
+		9B06687D05AE1ACD63DDE7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B8C876E6003561DA7952E04 /* LaunchScreen.storyboard */; };
+		9D0163DAAC7C905B1B0C427C /* machine.png in Resources */ = {isa = PBXBuildFile; fileRef = F08F248B1D975F74B2047581 /* machine.png */; };
+		9DBC4BC6D44BB3ADFA8853C7 /* ball_2.png in Resources */ = {isa = PBXBuildFile; fileRef = ECFE76E9974334B0F594AA57 /* ball_2.png */; };
+		9F5F7D1425EFB7BBEF1A1C52 /* outfit_acc_galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = 57DEE6EED94BD5396FBCDAAF /* outfit_acc_galaxy.png */; };
+		A0422216F1A424CDAD1113FF /* outfit_acc_hoodie.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B04B2351DD6D0AAE6D77901 /* outfit_acc_hoodie.png */; };
+		A586B211978D64847978CBA4 /* outfit_avatar_robo.png in Resources */ = {isa = PBXBuildFile; fileRef = C71734A93FB6A642F88ED90A /* outfit_avatar_robo.png */; };
+		A86E049478F4E1BEED091A5D /* kid_hold.png in Resources */ = {isa = PBXBuildFile; fileRef = 32C0ECBACCAF4952CAED36E0 /* kid_hold.png */; };
+		A922762A57E55E3A28B19520 /* kid_follow3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D69E29D033F5EAAF01C0F08 /* kid_follow3.png */; };
+		A96EBF6830C5E5DA9BD4DCA5 /* Projection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EA002E3D6433E2F9D4E8D6 /* Projection.swift */; };
+		B02EA5469B016ABD57E1C644 /* kid_idle.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B398E59F6EF39BB9C32FE3 /* kid_idle.png */; };
+		B12DA4234BE1C2FB41AAF8BF /* ball_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D542EF1A9F74DB204ADA26 /* ball_3.png */; };
+		B15A1959C8981203C03D5828 /* outfit_acc_whites.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F267828F92A56AA51B56904 /* outfit_acc_whites.png */; };
+		B298FD83029272CC84F7C69C /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8F2E6499FF44B3249AF1F3 /* Catalog.swift */; };
+		B5763FCCE26B23BAACFFB684 /* outfits.json in Resources */ = {isa = PBXBuildFile; fileRef = CF28E20805A78A6881E9E033 /* outfits.json */; };
+		BD6356392BFFBF2A0065A187 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E9406BC2AC23E40FE1229 /* MenuView.swift */; };
+		BF4AB92FFA643B1CAF0ED2D2 /* outfit_avatar_bruno.png in Resources */ = {isa = PBXBuildFile; fileRef = 846F3EEDC3611EAA8536A30C /* outfit_avatar_bruno.png */; };
+		C4037AEA1836929EE1F4DF9B /* outfit_acc_trackpants.png in Resources */ = {isa = PBXBuildFile; fileRef = B9320653DA1B540EAA46C926 /* outfit_acc_trackpants.png */; };
+		C694C0EE53D69940C08A9C84 /* PocketHoopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03053FE7BCAB028A3CCF8E6C /* PocketHoopsTests.swift */; };
+		C78B538CBCFC72728A55ACB1 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676E63983E81B635FB439548 /* ResultsView.swift */; };
+		C8B41410A685A76BB9E25AF8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F288C62C213B79EBD46BC6C /* GameScene.swift */; };
+		C8BD3CFC9B415934DF11C89E /* kid_ready.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BBD38A1C23BF2C600871875 /* kid_ready.png */; };
+		C9819894D4BC78900C59C242 /* kid_follow1.png in Resources */ = {isa = PBXBuildFile; fileRef = D282A0C564F612804C03AC6B /* kid_follow1.png */; };
+		C9DFD84AFE9354DC6B5989DB /* outfit_acc_shorts.png in Resources */ = {isa = PBXBuildFile; fileRef = 146FA5D916C1D4734C0274AD /* outfit_acc_shorts.png */; };
+		CDB24EBCFCFEA661D907CFB7 /* layout.json in Resources */ = {isa = PBXBuildFile; fileRef = 92B23A3FF6BE4AFBE1A28316 /* layout.json */; };
+		CE26E2754AEE4054AACD1657 /* outfit_acc_blacktee.png in Resources */ = {isa = PBXBuildFile; fileRef = F4DF60D5CB1957CCDF9DAB46 /* outfit_acc_blacktee.png */; };
+		CEC089CD0685BC2003F7850C /* outfit_avatar_rio.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FA2D7CDF1AA2743E1684078 /* outfit_avatar_rio.png */; };
+		D26977F0C72E24F99672ED2A /* rim_front_swish.png in Resources */ = {isa = PBXBuildFile; fileRef = CB738EE42EEA85A796837300 /* rim_front_swish.png */; };
+		D315ADAD088AF7717B6F3887 /* Flick.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94769AC9A2323D12E781F71 /* Flick.swift */; };
+		D41E2042DCF482E8781BE695 /* outfit_acc_camo.png in Resources */ = {isa = PBXBuildFile; fileRef = A4CB8B0DF348CC3D5740DA19 /* outfit_acc_camo.png */; };
+		D5D973BCA6225CDD00890A0A /* outfit_acc_mvp.png in Resources */ = {isa = PBXBuildFile; fileRef = A27A05122F75D3C0318CA0EE /* outfit_acc_mvp.png */; };
+		D8ED80024E99717D770F8684 /* outfit_avatar_legend.png in Resources */ = {isa = PBXBuildFile; fileRef = 381D3AD179C47AB3302E29A8 /* outfit_avatar_legend.png */; };
+		DC10E7A78B53584E661BB90D /* kid_follow2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD938A7D742B0AE9B912B6E /* kid_follow2.png */; };
+		DDD8C8D5DD53C03F994E8013 /* outfit_acc_track.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A74544380F311ABD803E12E /* outfit_acc_track.png */; };
+		E3DC3FE8593848D9E95449FD /* rim_back_rest.png in Resources */ = {isa = PBXBuildFile; fileRef = D73AF88186388AA1CE129A7C /* rim_back_rest.png */; };
+		EF700F8D3EB46C5B08C1C2DA /* outfit_avatar_zorp.png in Resources */ = {isa = PBXBuildFile; fileRef = E4C32D57B6EF12C2410F2AD3 /* outfit_avatar_zorp.png */; };
+		F0389AD32888003E9D15E197 /* GameRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A07EE23D8F487B975CCC2A /* GameRules.swift */; };
+		F1352D8DA176A950173A1061 /* panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A37DD71812D70CD220E93FE /* panel.png */; };
+		F17F0406142051101AF19575 /* outfit_acc_headphones.png in Resources */ = {isa = PBXBuildFile; fileRef = 6491C9D1F6E0F9A86DD19877 /* outfit_acc_headphones.png */; };
+		F991CF449C6C83A5A49E41D1 /* outfit_acc_redtee.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2E8D6763F9AD35B1B11EF6 /* outfit_acc_redtee.png */; };
+		FB73B16DB96B3F46FFA5F008 /* outfit_acc_retros.png in Resources */ = {isa = PBXBuildFile; fileRef = CCE2803C5A7433DDF9625A37 /* outfit_acc_retros.png */; };
+		FBCF5A0AF8A2C8B6A6742301 /* outfit_acc_crown.png in Resources */ = {isa = PBXBuildFile; fileRef = D49F9A5F51A1B3BB57031EB5 /* outfit_acc_crown.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FDF1760F6D73E823D95A498 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E81AFA7735F889CE5D865969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D9FCE76B4659F5C22A0489;
+			remoteInfo = PocketHoops;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006075034CC643B98288DAAC /* rim_front_rest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rim_front_rest.png; sourceTree = "<group>"; };
+		03053FE7BCAB028A3CCF8E6C /* PocketHoopsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketHoopsTests.swift; sourceTree = "<group>"; };
+		04D6579592D10D6300AC0783 /* outfit_hair_maya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_hair_maya.png; sourceTree = "<group>"; };
+		0758F2EBE3F63C44637209D4 /* outfit_acc_puffer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_puffer.png; sourceTree = "<group>"; };
+		0A74544380F311ABD803E12E /* outfit_acc_track.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_track.png; sourceTree = "<group>"; };
+		0B8C876E6003561DA7952E04 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D69E29D033F5EAAF01C0F08 /* kid_follow3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid_follow3.png; sourceTree = "<group>"; };
+		1088DD0669CEB5F55B3FD1EB /* outfit_acc_striped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_striped.png; sourceTree = "<group>"; };
+		129676C31ABA349FAA8C37E4 /* sparkle_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle_3.png; sourceTree = "<group>"; };
+		12A07EE23D8F487B975CCC2A /* GameRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRules.swift; sourceTree = "<group>"; };
+		146FA5D916C1D4734C0274AD /* outfit_acc_shorts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_shorts.png; sourceTree = "<group>"; };
+		18130866E8C381F559F62482 /* kid_jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid_jump.png; sourceTree = "<group>"; };
+		1F7EA0DDD3883B0A16C63E10 /* Rack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rack.swift; sourceTree = "<group>"; };
+		1F99FDEDA582C1207192AA28 /* outfit_acc_tiedye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_tiedye.png; sourceTree = "<group>"; };
+		22D542EF1A9F74DB204ADA26 /* ball_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_3.png; sourceTree = "<group>"; };
+		26E142AF62DE3E325D4467E1 /* outfit_acc_bomber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_bomber.png; sourceTree = "<group>"; };
+		285CAEDE842D3DF2F9797738 /* PixelCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelCanvas.swift; sourceTree = "<group>"; };
+		2A855DBE571DEA0F362780BA /* ball_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_0.png; sourceTree = "<group>"; };
+		2C502E4086FB8889664551BF /* Unlocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unlocks.swift; sourceTree = "<group>"; };
+		2F267828F92A56AA51B56904 /* outfit_acc_whites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_whites.png; sourceTree = "<group>"; };
+		32C0ECBACCAF4952CAED36E0 /* kid_hold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid_hold.png; sourceTree = "<group>"; };
+		381D3AD179C47AB3302E29A8 /* outfit_avatar_legend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_avatar_legend.png; sourceTree = "<group>"; };
+		3C653A04557B15D3EF136124 /* outfit_avatar_dre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_avatar_dre.png; sourceTree = "<group>"; };
+		3F8798A9F2A0AA8BCD09DB41 /* GIFArt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFArt.swift; sourceTree = "<group>"; };
+		410AE4F01B79EE7120FBA845 /* Aim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aim.swift; sourceTree = "<group>"; };
+		46303584EB558A63F90D75F6 /* PixelLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelLabel.swift; sourceTree = "<group>"; };
+		483A94FD42BAFE82BA20993D /* ball_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_1.png; sourceTree = "<group>"; };
+		4C1AEE45ED0F2E9CB5F2E39E /* ball_squash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_squash.png; sourceTree = "<group>"; };
+		4F288C62C213B79EBD46BC6C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4FA2D7CDF1AA2743E1684078 /* outfit_avatar_rio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_avatar_rio.png; sourceTree = "<group>"; };
+		4FF48B6AD5C015105BF1A7F4 /* outfit_acc_goldkicks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_goldkicks.png; sourceTree = "<group>"; };
+		5389733879649E77CA19C4E8 /* outfit_acc_sweatband.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_sweatband.png; sourceTree = "<group>"; };
+		57DEE6EED94BD5396FBCDAAF /* outfit_acc_galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_galaxy.png; sourceTree = "<group>"; };
+		585FCBC36E12804D41D2E507 /* kid_crouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid_crouch.png; sourceTree = "<group>"; };
+		5CD938A7D742B0AE9B912B6E /* kid_follow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid_follow2.png; sourceTree = "<group>"; };
+		60D9DC6595BD13BC743E4C11 /* kid_lift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid_lift.png; sourceTree = "<group>"; };
+		6491C9D1F6E0F9A86DD19877 /* outfit_acc_headphones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_headphones.png; sourceTree = "<group>"; };
+		64B4065626F9E597F988017F /* kid_reach.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid_reach.png; sourceTree = "<group>"; };
+		676E63983E81B635FB439548 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		6A37DD71812D70CD220E93FE /* panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panel.png; sourceTree = "<group>"; };
+		6C1866E2A494983252A4A8BC /* outfit_acc_beanie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_beanie.png; sourceTree = "<group>"; };
+		6D907CA2EFA5832E483CD6D1 /* outfit_acc_goldjersey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_goldjersey.png; sourceTree = "<group>"; };
+		76C4E7B94CF44C7E469AAEC5 /* PixelFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelFont.swift; sourceTree = "<group>"; };
+		7CD374025B6501D3CF1E2BAA /* lip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lip.png; sourceTree = "<group>"; };
+		82B398E59F6EF39BB9C32FE3 /* kid_idle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid_idle.png; sourceTree = "<group>"; };
+		846F3EEDC3611EAA8536A30C /* outfit_avatar_bruno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_avatar_bruno.png; sourceTree = "<group>"; };
+		8A4CD9D0CAF3E758A9A936AA /* outfit_acc_neon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_neon.png; sourceTree = "<group>"; };
+		8BBD38A1C23BF2C600871875 /* kid_ready.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid_ready.png; sourceTree = "<group>"; };
+		8D0E476DBF5A60249648CB2A /* Vec3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vec3.swift; sourceTree = "<group>"; };
+		92B23A3FF6BE4AFBE1A28316 /* layout.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = layout.json; sourceTree = "<group>"; };
+		942B1878B19493FF28834425 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		959D97B5CA8C2E07C35B5150 /* rim_back_swish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rim_back_swish.png; sourceTree = "<group>"; };
+		9709BE6801EB4EAE56FDADF6 /* outfit_acc_cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_cap.png; sourceTree = "<group>"; };
+		9B04B2351DD6D0AAE6D77901 /* outfit_acc_hoodie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_hoodie.png; sourceTree = "<group>"; };
+		9C4F1EDDB7F918C4B1EB898C /* outfit_avatar_maya.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_avatar_maya.png; sourceTree = "<group>"; };
+		9CEE82062285AF2F899CBFA2 /* outfit_acc_bandana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_bandana.png; sourceTree = "<group>"; };
+		9D6A0D0FF8A1775F4BF60E80 /* Wardrobe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wardrobe.swift; sourceTree = "<group>"; };
+		9F28557BB9BE1DBC172BB87D /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		9F3B2E0B2A2D5396D6C5BDD8 /* sparkle_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle_0.png; sourceTree = "<group>"; };
+		A27A05122F75D3C0318CA0EE /* outfit_acc_mvp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_mvp.png; sourceTree = "<group>"; };
+		A4CB8B0DF348CC3D5740DA19 /* outfit_acc_camo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_camo.png; sourceTree = "<group>"; };
+		A88D1A994BF3319C5E095F3E /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		AAD3EA522A7DC94E2AE9F793 /* outfit_acc_lava.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_lava.png; sourceTree = "<group>"; };
+		AC4A94FE6C0CF4AD91AAC9B3 /* PrizeCounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrizeCounterView.swift; sourceTree = "<group>"; };
+		AC8F2E6499FF44B3249AF1F3 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		AF2E8D6763F9AD35B1B11EF6 /* outfit_acc_redtee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_redtee.png; sourceTree = "<group>"; };
+		B01A3646EDCC979B2ED60829 /* outfit_acc_blackkicks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_blackkicks.png; sourceTree = "<group>"; };
+		B47E9406BC2AC23E40FE1229 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B876575B546DF0622FF2512A /* outfit_acc_blackjeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_blackjeans.png; sourceTree = "<group>"; };
+		B9320653DA1B540EAA46C926 /* outfit_acc_trackpants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_trackpants.png; sourceTree = "<group>"; };
+		B94021462034EDBFAE439015 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		BD992F6D698D639647FD4D60 /* WorldBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBoard.swift; sourceTree = "<group>"; };
+		C459FF870A807D28E15FA428 /* Physics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Physics.swift; sourceTree = "<group>"; };
+		C4FEB633FB528667D0D22960 /* ball_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_4.png; sourceTree = "<group>"; };
+		C5CC14DE93269AA30E1C6562 /* PixelUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelUI.swift; sourceTree = "<group>"; };
+		C71734A93FB6A642F88ED90A /* outfit_avatar_robo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_avatar_robo.png; sourceTree = "<group>"; };
+		C94769AC9A2323D12E781F71 /* Flick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flick.swift; sourceTree = "<group>"; };
+		CB738EE42EEA85A796837300 /* rim_front_swish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rim_front_swish.png; sourceTree = "<group>"; };
+		CCE2803C5A7433DDF9625A37 /* outfit_acc_retros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_retros.png; sourceTree = "<group>"; };
+		CF28E20805A78A6881E9E033 /* outfits.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = outfits.json; sourceTree = "<group>"; };
+		D282A0C564F612804C03AC6B /* kid_follow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kid_follow1.png; sourceTree = "<group>"; };
+		D49F9A5F51A1B3BB57031EB5 /* outfit_acc_crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_crown.png; sourceTree = "<group>"; };
+		D73AF88186388AA1CE129A7C /* rim_back_rest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rim_back_rest.png; sourceTree = "<group>"; };
+		DB427F8884EE80BDF779CBFE /* outfit_acc_jersey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_jersey.png; sourceTree = "<group>"; };
+		E4C32D57B6EF12C2410F2AD3 /* outfit_avatar_zorp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_avatar_zorp.png; sourceTree = "<group>"; };
+		E4C6D7DE39AF71CC13270211 /* PocketHoops.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PocketHoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DC04CACA72D52BEC97B2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9EA002E3D6433E2F9D4E8D6 /* Projection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projection.swift; sourceTree = "<group>"; };
+		ECFE76E9974334B0F594AA57 /* ball_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball_2.png; sourceTree = "<group>"; };
+		EF464427F30E2D0C1CFCB004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F08F248B1D975F74B2047581 /* machine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machine.png; sourceTree = "<group>"; };
+		F4DF60D5CB1957CCDF9DAB46 /* outfit_acc_blacktee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_blacktee.png; sourceTree = "<group>"; };
+		F5D2F16FDA3B52FB0A6339A6 /* sparkle_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle_2.png; sourceTree = "<group>"; };
+		F7B7BAF042A7D2E1E0F5DF0E /* outfit_acc_varsity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outfit_acc_varsity.png; sourceTree = "<group>"; };
+		FD71ECE433656C682F453A28 /* PocketHoopsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketHoopsApp.swift; sourceTree = "<group>"; };
+		FF93530991C6E03606216DA3 /* sparkle_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparkle_1.png; sourceTree = "<group>"; };
+		FF979ADAE93468C464B11510 /* PocketHoopsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PocketHoopsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		28E2FC2CD7BB7D846B46166F /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				AC8F2E6499FF44B3249AF1F3 /* Catalog.swift */,
+				3F8798A9F2A0AA8BCD09DB41 /* GIFArt.swift */,
+				285CAEDE842D3DF2F9797738 /* PixelCanvas.swift */,
+				76C4E7B94CF44C7E469AAEC5 /* PixelFont.swift */,
+				9D6A0D0FF8A1775F4BF60E80 /* Wardrobe.swift */,
+			);
+			path = Art;
+			sourceTree = "<group>";
+		};
+		299E1A6EA826AE8ECF132D7D = {
+			isa = PBXGroup;
+			children = (
+				7B1577ED2FD102715B0DFE01 /* PocketHoops */,
+				BCEC37351D4B66A0751365E9 /* PocketHoopsTests */,
+				34A4AD9C506D28D5A1245A20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A4AD9C506D28D5A1245A20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4C6D7DE39AF71CC13270211 /* PocketHoops.app */,
+				FF979ADAE93468C464B11510 /* PocketHoopsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44ACBAF5503DEDE51224637B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				942B1878B19493FF28834425 /* GameView.swift */,
+				B94021462034EDBFAE439015 /* LeaderboardView.swift */,
+				B47E9406BC2AC23E40FE1229 /* MenuView.swift */,
+				C5CC14DE93269AA30E1C6562 /* PixelUI.swift */,
+				AC4A94FE6C0CF4AD91AAC9B3 /* PrizeCounterView.swift */,
+				676E63983E81B635FB439548 /* ResultsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		56D54BF061182D5EC8CD6012 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				9F28557BB9BE1DBC172BB87D /* Progress.swift */,
+				2C502E4086FB8889664551BF /* Unlocks.swift */,
+				BD992F6D698D639647FD4D60 /* WorldBoard.swift */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		7B1577ED2FD102715B0DFE01 /* PocketHoops */ = {
+			isa = PBXGroup;
+			children = (
+				E8DC04CACA72D52BEC97B2F2 /* Assets.xcassets */,
+				EF464427F30E2D0C1CFCB004 /* Info.plist */,
+				0B8C876E6003561DA7952E04 /* LaunchScreen.storyboard */,
+				B6CB8BD7B6C14140879D7E5B /* App */,
+				28E2FC2CD7BB7D846B46166F /* Art */,
+				9D3DC99726F476D14F9BD7B9 /* Game */,
+				D6145DD91775E4CB5E6C8F7B /* GIFArt */,
+				56D54BF061182D5EC8CD6012 /* Meta */,
+				44ACBAF5503DEDE51224637B /* UI */,
+			);
+			path = PocketHoops;
+			sourceTree = "<group>";
+		};
+		9D3DC99726F476D14F9BD7B9 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				410AE4F01B79EE7120FBA845 /* Aim.swift */,
+				C94769AC9A2323D12E781F71 /* Flick.swift */,
+				12A07EE23D8F487B975CCC2A /* GameRules.swift */,
+				4F288C62C213B79EBD46BC6C /* GameScene.swift */,
+				C459FF870A807D28E15FA428 /* Physics.swift */,
+				46303584EB558A63F90D75F6 /* PixelLabel.swift */,
+				E9EA002E3D6433E2F9D4E8D6 /* Projection.swift */,
+				1F7EA0DDD3883B0A16C63E10 /* Rack.swift */,
+				A88D1A994BF3319C5E095F3E /* Sound.swift */,
+				8D0E476DBF5A60249648CB2A /* Vec3.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		B6CB8BD7B6C14140879D7E5B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FD71ECE433656C682F453A28 /* PocketHoopsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BCEC37351D4B66A0751365E9 /* PocketHoopsTests */ = {
+			isa = PBXGroup;
+			children = (
+				03053FE7BCAB028A3CCF8E6C /* PocketHoopsTests.swift */,
+			);
+			path = PocketHoopsTests;
+			sourceTree = "<group>";
+		};
+		D6145DD91775E4CB5E6C8F7B /* GIFArt */ = {
+			isa = PBXGroup;
+			children = (
+				2A855DBE571DEA0F362780BA /* ball_0.png */,
+				483A94FD42BAFE82BA20993D /* ball_1.png */,
+				ECFE76E9974334B0F594AA57 /* ball_2.png */,
+				22D542EF1A9F74DB204ADA26 /* ball_3.png */,
+				C4FEB633FB528667D0D22960 /* ball_4.png */,
+				4C1AEE45ED0F2E9CB5F2E39E /* ball_squash.png */,
+				585FCBC36E12804D41D2E507 /* kid_crouch.png */,
+				D282A0C564F612804C03AC6B /* kid_follow1.png */,
+				5CD938A7D742B0AE9B912B6E /* kid_follow2.png */,
+				0D69E29D033F5EAAF01C0F08 /* kid_follow3.png */,
+				32C0ECBACCAF4952CAED36E0 /* kid_hold.png */,
+				82B398E59F6EF39BB9C32FE3 /* kid_idle.png */,
+				18130866E8C381F559F62482 /* kid_jump.png */,
+				60D9DC6595BD13BC743E4C11 /* kid_lift.png */,
+				64B4065626F9E597F988017F /* kid_reach.png */,
+				8BBD38A1C23BF2C600871875 /* kid_ready.png */,
+				92B23A3FF6BE4AFBE1A28316 /* layout.json */,
+				7CD374025B6501D3CF1E2BAA /* lip.png */,
+				F08F248B1D975F74B2047581 /* machine.png */,
+				9CEE82062285AF2F899CBFA2 /* outfit_acc_bandana.png */,
+				6C1866E2A494983252A4A8BC /* outfit_acc_beanie.png */,
+				B876575B546DF0622FF2512A /* outfit_acc_blackjeans.png */,
+				B01A3646EDCC979B2ED60829 /* outfit_acc_blackkicks.png */,
+				F4DF60D5CB1957CCDF9DAB46 /* outfit_acc_blacktee.png */,
+				26E142AF62DE3E325D4467E1 /* outfit_acc_bomber.png */,
+				A4CB8B0DF348CC3D5740DA19 /* outfit_acc_camo.png */,
+				9709BE6801EB4EAE56FDADF6 /* outfit_acc_cap.png */,
+				D49F9A5F51A1B3BB57031EB5 /* outfit_acc_crown.png */,
+				57DEE6EED94BD5396FBCDAAF /* outfit_acc_galaxy.png */,
+				6D907CA2EFA5832E483CD6D1 /* outfit_acc_goldjersey.png */,
+				4FF48B6AD5C015105BF1A7F4 /* outfit_acc_goldkicks.png */,
+				6491C9D1F6E0F9A86DD19877 /* outfit_acc_headphones.png */,
+				9B04B2351DD6D0AAE6D77901 /* outfit_acc_hoodie.png */,
+				DB427F8884EE80BDF779CBFE /* outfit_acc_jersey.png */,
+				AAD3EA522A7DC94E2AE9F793 /* outfit_acc_lava.png */,
+				A27A05122F75D3C0318CA0EE /* outfit_acc_mvp.png */,
+				8A4CD9D0CAF3E758A9A936AA /* outfit_acc_neon.png */,
+				0758F2EBE3F63C44637209D4 /* outfit_acc_puffer.png */,
+				AF2E8D6763F9AD35B1B11EF6 /* outfit_acc_redtee.png */,
+				CCE2803C5A7433DDF9625A37 /* outfit_acc_retros.png */,
+				146FA5D916C1D4734C0274AD /* outfit_acc_shorts.png */,
+				1088DD0669CEB5F55B3FD1EB /* outfit_acc_striped.png */,
+				5389733879649E77CA19C4E8 /* outfit_acc_sweatband.png */,
+				1F99FDEDA582C1207192AA28 /* outfit_acc_tiedye.png */,
+				0A74544380F311ABD803E12E /* outfit_acc_track.png */,
+				B9320653DA1B540EAA46C926 /* outfit_acc_trackpants.png */,
+				F7B7BAF042A7D2E1E0F5DF0E /* outfit_acc_varsity.png */,
+				2F267828F92A56AA51B56904 /* outfit_acc_whites.png */,
+				846F3EEDC3611EAA8536A30C /* outfit_avatar_bruno.png */,
+				3C653A04557B15D3EF136124 /* outfit_avatar_dre.png */,
+				381D3AD179C47AB3302E29A8 /* outfit_avatar_legend.png */,
+				9C4F1EDDB7F918C4B1EB898C /* outfit_avatar_maya.png */,
+				4FA2D7CDF1AA2743E1684078 /* outfit_avatar_rio.png */,
+				C71734A93FB6A642F88ED90A /* outfit_avatar_robo.png */,
+				E4C32D57B6EF12C2410F2AD3 /* outfit_avatar_zorp.png */,
+				04D6579592D10D6300AC0783 /* outfit_hair_maya.png */,
+				CF28E20805A78A6881E9E033 /* outfits.json */,
+				6A37DD71812D70CD220E93FE /* panel.png */,
+				D73AF88186388AA1CE129A7C /* rim_back_rest.png */,
+				959D97B5CA8C2E07C35B5150 /* rim_back_swish.png */,
+				006075034CC643B98288DAAC /* rim_front_rest.png */,
+				CB738EE42EEA85A796837300 /* rim_front_swish.png */,
+				9F3B2E0B2A2D5396D6C5BDD8 /* sparkle_0.png */,
+				FF93530991C6E03606216DA3 /* sparkle_1.png */,
+				F5D2F16FDA3B52FB0A6339A6 /* sparkle_2.png */,
+				129676C31ABA349FAA8C37E4 /* sparkle_3.png */,
+			);
+			path = GIFArt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15D9FCE76B4659F5C22A0489 /* PocketHoops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC38EC972EE1986C6C7B01F3 /* Build configuration list for PBXNativeTarget "PocketHoops" */;
+			buildPhases = (
+				591759B962C41BE22E9166ED /* Sources */,
+				86A8EFB6DDA8E5E5B705407F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketHoops;
+			packageProductDependencies = (
+			);
+			productName = PocketHoops;
+			productReference = E4C6D7DE39AF71CC13270211 /* PocketHoops.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA96CAB74229348AAEECDBED /* PocketHoopsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ACDDD3A17F6FEC1D44B69C6 /* Build configuration list for PBXNativeTarget "PocketHoopsTests" */;
+			buildPhases = (
+				63FF3F247CA68916F9AFE62E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05A57678CA588E2827868EB6 /* PBXTargetDependency */,
+			);
+			name = PocketHoopsTests;
+			packageProductDependencies = (
+			);
+			productName = PocketHoopsTests;
+			productReference = FF979ADAE93468C464B11510 /* PocketHoopsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E81AFA7735F889CE5D865969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					15D9FCE76B4659F5C22A0489 = {
+						DevelopmentTeam = 6N239V8VV5;
+						ProvisioningStyle = Automatic;
+					};
+					AA96CAB74229348AAEECDBED = {
+						DevelopmentTeam = 6N239V8VV5;
+					};
+				};
+			};
+			buildConfigurationList = 9A3F22BE3C90A4CFE8774A2C /* Build configuration list for PBXProject "PocketHoops" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 299E1A6EA826AE8ECF132D7D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 34A4AD9C506D28D5A1245A20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15D9FCE76B4659F5C22A0489 /* PocketHoops */,
+				AA96CAB74229348AAEECDBED /* PocketHoopsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86A8EFB6DDA8E5E5B705407F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D77230D3A8B0708016EFAB /* Assets.xcassets in Resources */,
+				9B06687D05AE1ACD63DDE7FE /* LaunchScreen.storyboard in Resources */,
+				83C2674C69E31AA33BD94E80 /* ball_0.png in Resources */,
+				23597C42EFE981AAD3070A1F /* ball_1.png in Resources */,
+				9DBC4BC6D44BB3ADFA8853C7 /* ball_2.png in Resources */,
+				B12DA4234BE1C2FB41AAF8BF /* ball_3.png in Resources */,
+				690D18D8A5BE843D3552FD78 /* ball_4.png in Resources */,
+				53F89E0BD8DB0B9D3403EA16 /* ball_squash.png in Resources */,
+				8481A29311C496CC008524C9 /* kid_crouch.png in Resources */,
+				C9819894D4BC78900C59C242 /* kid_follow1.png in Resources */,
+				DC10E7A78B53584E661BB90D /* kid_follow2.png in Resources */,
+				A922762A57E55E3A28B19520 /* kid_follow3.png in Resources */,
+				A86E049478F4E1BEED091A5D /* kid_hold.png in Resources */,
+				B02EA5469B016ABD57E1C644 /* kid_idle.png in Resources */,
+				276FC998CDEBC3CDCE65B3D1 /* kid_jump.png in Resources */,
+				651B7AF434A2C054D5508D36 /* kid_lift.png in Resources */,
+				53094074B04A745C566DF41F /* kid_reach.png in Resources */,
+				C8BD3CFC9B415934DF11C89E /* kid_ready.png in Resources */,
+				CDB24EBCFCFEA661D907CFB7 /* layout.json in Resources */,
+				9338D39030A5DA6AC5C968B8 /* lip.png in Resources */,
+				9D0163DAAC7C905B1B0C427C /* machine.png in Resources */,
+				0FD9955BFA3A4030EF05403E /* outfit_acc_bandana.png in Resources */,
+				1495DADFE1F114DB3FD9FC62 /* outfit_acc_beanie.png in Resources */,
+				0956FEC8F6741E1D837C2C32 /* outfit_acc_blackjeans.png in Resources */,
+				22017949E787D5CF0125BFD0 /* outfit_acc_blackkicks.png in Resources */,
+				CE26E2754AEE4054AACD1657 /* outfit_acc_blacktee.png in Resources */,
+				894BC8A3035343BC8D780E25 /* outfit_acc_bomber.png in Resources */,
+				D41E2042DCF482E8781BE695 /* outfit_acc_camo.png in Resources */,
+				2A76C2AABD359555BE0BF960 /* outfit_acc_cap.png in Resources */,
+				FBCF5A0AF8A2C8B6A6742301 /* outfit_acc_crown.png in Resources */,
+				9F5F7D1425EFB7BBEF1A1C52 /* outfit_acc_galaxy.png in Resources */,
+				860B2DB99A56BF7DFF964360 /* outfit_acc_goldjersey.png in Resources */,
+				1B58DEDEBB8356F6C5FB1E8C /* outfit_acc_goldkicks.png in Resources */,
+				F17F0406142051101AF19575 /* outfit_acc_headphones.png in Resources */,
+				A0422216F1A424CDAD1113FF /* outfit_acc_hoodie.png in Resources */,
+				8D955B609CD60B56EF578D1D /* outfit_acc_jersey.png in Resources */,
+				2D58CCA15E877C9094AB4B42 /* outfit_acc_lava.png in Resources */,
+				D5D973BCA6225CDD00890A0A /* outfit_acc_mvp.png in Resources */,
+				16103665D208CA22134267EA /* outfit_acc_neon.png in Resources */,
+				4FCFE1329F4A28920E130806 /* outfit_acc_puffer.png in Resources */,
+				F991CF449C6C83A5A49E41D1 /* outfit_acc_redtee.png in Resources */,
+				FB73B16DB96B3F46FFA5F008 /* outfit_acc_retros.png in Resources */,
+				C9DFD84AFE9354DC6B5989DB /* outfit_acc_shorts.png in Resources */,
+				7460792E847A7C43BCDB02B4 /* outfit_acc_striped.png in Resources */,
+				2E8B5B908117AF9D7CE9B2FD /* outfit_acc_sweatband.png in Resources */,
+				520A53AB883535C7B9E07C81 /* outfit_acc_tiedye.png in Resources */,
+				DDD8C8D5DD53C03F994E8013 /* outfit_acc_track.png in Resources */,
+				C4037AEA1836929EE1F4DF9B /* outfit_acc_trackpants.png in Resources */,
+				68302E000A11F8F368F6E575 /* outfit_acc_varsity.png in Resources */,
+				B15A1959C8981203C03D5828 /* outfit_acc_whites.png in Resources */,
+				BF4AB92FFA643B1CAF0ED2D2 /* outfit_avatar_bruno.png in Resources */,
+				74D7DEE0A2AC0801754CE841 /* outfit_avatar_dre.png in Resources */,
+				D8ED80024E99717D770F8684 /* outfit_avatar_legend.png in Resources */,
+				3BEBCE97B34C3F662E4AF95B /* outfit_avatar_maya.png in Resources */,
+				CEC089CD0685BC2003F7850C /* outfit_avatar_rio.png in Resources */,
+				A586B211978D64847978CBA4 /* outfit_avatar_robo.png in Resources */,
+				EF700F8D3EB46C5B08C1C2DA /* outfit_avatar_zorp.png in Resources */,
+				5A3B4B6D3275B936C8F7733C /* outfit_hair_maya.png in Resources */,
+				B5763FCCE26B23BAACFFB684 /* outfits.json in Resources */,
+				F1352D8DA176A950173A1061 /* panel.png in Resources */,
+				E3DC3FE8593848D9E95449FD /* rim_back_rest.png in Resources */,
+				2C9B4DC9E0EB1D8CA299CF79 /* rim_back_swish.png in Resources */,
+				82EF2C1E5A7AB5187D3DA7FA /* rim_front_rest.png in Resources */,
+				D26977F0C72E24F99672ED2A /* rim_front_swish.png in Resources */,
+				284BD0848EEAA048041D5307 /* sparkle_0.png in Resources */,
+				24ADFD729D007F8344C185FA /* sparkle_1.png in Resources */,
+				57B71C9B16E291543E02BD28 /* sparkle_2.png in Resources */,
+				5FC36A3AD85ABCAC327C462F /* sparkle_3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		591759B962C41BE22E9166ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06ABEB5B7C94104D8D323B8B /* Aim.swift in Sources */,
+				B298FD83029272CC84F7C69C /* Catalog.swift in Sources */,
+				D315ADAD088AF7717B6F3887 /* Flick.swift in Sources */,
+				9231987F90F58BCD9D48983E /* GIFArt.swift in Sources */,
+				F0389AD32888003E9D15E197 /* GameRules.swift in Sources */,
+				C8B41410A685A76BB9E25AF8 /* GameScene.swift in Sources */,
+				792CECABA03580600E10CCFC /* GameView.swift in Sources */,
+				71AC23B02D6C12570F1B68A8 /* LeaderboardView.swift in Sources */,
+				BD6356392BFFBF2A0065A187 /* MenuView.swift in Sources */,
+				7F850D00D114881928A807ED /* Physics.swift in Sources */,
+				6E7503765BC08ED40B40849D /* PixelCanvas.swift in Sources */,
+				579E9761BE67A2A2BD1E2EEE /* PixelFont.swift in Sources */,
+				6861DD53CF813F758380876A /* PixelLabel.swift in Sources */,
+				68BC4D138934F6420AD2A349 /* PixelUI.swift in Sources */,
+				493403D26BE7E58C681F4A64 /* PocketHoopsApp.swift in Sources */,
+				0DCC62959806F1BA08D046E7 /* PrizeCounterView.swift in Sources */,
+				6734B9449CDADC0D513ED26B /* Progress.swift in Sources */,
+				A96EBF6830C5E5DA9BD4DCA5 /* Projection.swift in Sources */,
+				70CEC779691B05C46E770611 /* Rack.swift in Sources */,
+				C78B538CBCFC72728A55ACB1 /* ResultsView.swift in Sources */,
+				43E280E59A596680477B1BC9 /* Sound.swift in Sources */,
+				25E963188783BA36116AEAC3 /* Unlocks.swift in Sources */,
+				77685E5F32C056488D06591E /* Vec3.swift in Sources */,
+				57D022D341F15FFAF836E2B6 /* Wardrobe.swift in Sources */,
+				46D4F87C1EB47A18C1E4917C /* WorldBoard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FF3F247CA68916F9AFE62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C694C0EE53D69940C08A9C84 /* PocketHoopsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05A57678CA588E2827868EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15D9FCE76B4659F5C22A0489 /* PocketHoops */;
+			targetProxy = 8FDF1760F6D73E823D95A498 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41D71189A3F8E17033FC48F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonfang.PocketHoopsTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketHoops.app/PocketHoops";
+			};
+			name = Release;
+		};
+		5CF44D261BC61DCCE3B8974D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6N239V8VV5;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		78E7AC6D79B7BCE72D2B3635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6N239V8VV5;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AAA47E249F2C040A3B83B551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BOARD_KEY = "";
+				BOARD_URL = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = PocketHoops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonfang.pockethoops;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		BA4EE7C37E6A6DED45D98D7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BOARD_KEY = "";
+				BOARD_URL = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = PocketHoops/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonfang.pockethoops;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F24C5BA4EDF4AC7F5459AA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonfang.PocketHoopsTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketHoops.app/PocketHoops";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A3F22BE3C90A4CFE8774A2C /* Build configuration list for PBXProject "PocketHoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78E7AC6D79B7BCE72D2B3635 /* Debug */,
+				5CF44D261BC61DCCE3B8974D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9ACDDD3A17F6FEC1D44B69C6 /* Build configuration list for PBXNativeTarget "PocketHoopsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24C5BA4EDF4AC7F5459AA0B /* Debug */,
+				41D71189A3F8E17033FC48F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC38EC972EE1986C6C7B01F3 /* Build configuration list for PBXNativeTarget "PocketHoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA4EE7C37E6A6DED45D98D7C /* Debug */,
+				AAA47E249F2C040A3B83B551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E81AFA7735F889CE5D865969 /* Project object */;
+}

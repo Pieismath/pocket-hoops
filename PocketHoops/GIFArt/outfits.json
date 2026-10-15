@@ -1,0 +1,157 @@
+{
+ "poses": [
+  "reach",
+  "lift",
+  "hold",
+  "crouch",
+  "jump",
+  "follow1",
+  "follow2",
+  "follow3",
+  "idle",
+  "ready"
+ ],
+ "cell": [
+  44,
+  66
+ ],
+ "skinKeys": [
+  "#FF00F0",
+  "#FF00F1",
+  "#FF00F2"
+ ],
+ "avatars": {
+  "kid": {
+   "skin": [
+    "#FED5B3",
+    "#EAAB76",
+    "#CA8347"
+   ],
+   "hairOver": false,
+   "wears": [
+    "hat",
+    "shirt",
+    "jacket",
+    "pants",
+    "shoes"
+   ]
+  },
+  "dre": {
+   "skin": [
+    "#9A6440",
+    "#77492C",
+    "#55321C"
+   ],
+   "hairOver": false,
+   "wears": [
+    "hat",
+    "shirt",
+    "jacket",
+    "pants",
+    "shoes"
+   ]
+  },
+  "maya": {
+   "skin": [
+    "#F3C497",
+    "#D8A06A",
+    "#B07743"
+   ],
+   "hairOver": true,
+   "wears": [
+    "hat",
+    "shirt",
+    "jacket",
+    "pants",
+    "shoes"
+   ]
+  },
+  "rio": {
+   "skin": [
+    "#CF9463",
+    "#AB7042",
+    "#80502C"
+   ],
+   "hairOver": false,
+   "wears": [
+    "hat",
+    "shirt",
+    "jacket",
+    "pants",
+    "shoes"
+   ]
+  },
+  "zorp": {
+   "skin": [
+    "#A9EC72",
+    "#6BC24F",
+    "#3F8E38"
+   ],
+   "hairOver": false,
+   "wears": [
+    "shirt",
+    "jacket",
+    "pants",
+    "shoes"
+   ]
+  },
+  "robo": {
+   "skin": [
+    "#E2E8EE",
+    "#AEB9C4",
+    "#77838F"
+   ],
+   "hairOver": false,
+   "wears": []
+  },
+  "bruno": {
+   "skin": [
+    "#C0874E",
+    "#9A6634",
+    "#6E4520"
+   ],
+   "hairOver": false,
+   "wears": []
+  },
+  "legend": {
+   "skin": [
+    "#FFE784",
+    "#EBB838",
+    "#B9821B"
+   ],
+   "hairOver": false,
+   "wears": []
+  }
+ },
+ "accessories": {
+  "sweatband": "hat",
+  "beanie": "hat",
+  "bandana": "hat",
+  "cap": "hat",
+  "headphones": "hat",
+  "crown": "hat",
+  "redtee": "shirt",
+  "blacktee": "shirt",
+  "striped": "shirt",
+  "jersey": "shirt",
+  "tiedye": "shirt",
+  "goldjersey": "shirt",
+  "hoodie": "jacket",
+  "track": "jacket",
+  "bomber": "jacket",
+  "puffer": "jacket",
+  "varsity": "jacket",
+  "mvp": "jacket",
+  "blackjeans": "pants",
+  "shorts": "pants",
+  "trackpants": "pants",
+  "camo": "pants",
+  "galaxy": "pants",
+  "whites": "shoes",
+  "blackkicks": "shoes",
+  "retros": "shoes",
+  "neon": "shoes",
+  "lava": "shoes",
+  "goldkicks": "shoes"
+ }
+}
